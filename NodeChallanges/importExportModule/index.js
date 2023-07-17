@@ -1,5 +1,7 @@
-const oper = require("./oper");
+// const oper = require("./oper");
+const { add, name, mul } = require("./oper");
 
-console.log(oper.add(5, 5));
+console.log(add(5, 5));
 
-console.log(oper.name);
+console.log(name);
+console.log(mul(10, 5));
