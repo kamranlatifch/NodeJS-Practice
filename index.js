@@ -8,6 +8,7 @@
 // similar as console of chrome
 ////Core Modules 5
 //creating a new file
+
 const fs = require("fs");
 // fs.writeFileSync("read.txt", "Welcome to Kamran's training");
 // fs.writeFileSync("read.txt", "Welcome to Kamran's training part 2");
