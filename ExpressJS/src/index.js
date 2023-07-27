@@ -6,6 +6,12 @@ const staticPath = path.join(__dirname, "../public/S-Textiles");
 
 app.use(express.static(staticPath)); //built-in middleware to use static website
 
+//to set the view engine
+// app.set("view engine", "hbs");
+//template engine route
+// app.get("", (req, res) => {
+//   res.render("index");
+// });
 app.get("/", (req, res) => {
   res.send("GET is called from express");
 });
@@ -17,4 +23,4 @@ app.listen(8000, () => {
   console.log("Listening on port 8000");
 });
 
-//we use template engine if we want to play with dynamic data in express js
+//we use template engine if we want to play with dynamic data in express js(ejs,pug,handlebars)
